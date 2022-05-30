@@ -37,7 +37,7 @@
 .todo-task-name {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo-add-wrapper {
@@ -131,7 +131,7 @@ button:hover {
 }
 
 .todo-tasks-item .todo-task-name {
-  width: 226px
+  width: 226px;
 }
 
 .task-delete img {
@@ -146,18 +146,18 @@ button:hover {
 
 /* Completed */
 #todo-completed-list .todo-task-name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo-task-name {
-  display: none
+  display: none;
 }
 
 .todo-task-input {
   display:inline-block;
-  width: 224px
+  width: 224px;
 }
 /*
 ul li.todo-tasks-item label {
