@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.todo-tasks-item, .todo-title {
+.todo-tasks-item,
+.todo-title {
   list-style: none;
 }
 
-input, button {
+input, 
+button {
   outline: none;
 }
 
