@@ -3,8 +3,8 @@
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -73,6 +73,7 @@
 .main__button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .main__title {
   color: #333;
@@ -112,7 +113,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
