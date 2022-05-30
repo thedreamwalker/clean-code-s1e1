@@ -55,12 +55,17 @@
   list-style: none;
 }
 
-input, 
-button {
+.todo-input-text,
+.todo-checkbox, 
+.task-edit,
+.task-delete,
+.task-add {
   outline: none;
 }
 
-button {
+.task-edit,
+.task-delete,
+.task-add {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +75,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.task-edit:hover,
+.task-delete:hover,
+.task-add:hover {
   color: #3a3A3a;
 }
 /* Heading */
