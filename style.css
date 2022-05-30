@@ -45,16 +45,16 @@
 }
 
 .todo-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, .todo-title {
-  list-style:none;
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input, button {
+  outline: none;
 }
 
 button {
@@ -152,12 +152,12 @@ button:hover {
 
 /* Edit Task */
 .todo-task-name {
-  display:none
+  display: none
 }
 
 .todo-task-input {
   display:inline-block;
-  width:224px
+  width: 224px
 }
 /*
 ul li.todo-tasks-item label {
