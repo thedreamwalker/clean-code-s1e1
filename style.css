@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.todo-task-name {
+.todo-task-name,
+.todo-input-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -83,7 +84,7 @@ button:hover {
   text-transform: uppercase;
 }
 
-.todo-task-name {
+.todo-input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +97,7 @@ button:hover {
   color: #888;
 }
 
-.todo-task-name:focus {
+.todo-input-text:focus {
   color: #333;
 }
 
@@ -132,7 +133,7 @@ button:hover {
   width: 226px;
 }
 
-.todo-tasks-item .todo-task-name {
+.todo-tasks-item .todo-input-text {
   width: 226px;
 }
 
@@ -153,15 +154,15 @@ button:hover {
 }
 
 /* Edit Task */
-.todo-task-name {
+.todo-tasks-item .todo-input-text {
   display: none;
 }
 
-.todo-task-input {
+.edit-mode .todo-input-text {
   display: inline-block;
   width: 224px;
 }
-/*
-ul li.todo-tasks-item label {
+
+.edit-mode .todo-task-name {
   display:none;
-}*/
+}
